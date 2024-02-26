@@ -1,0 +1,37 @@
+# This file is added by the Greenhost Auto Installer
+# It protects against the execution of executables/scripts placed
+# in uploads (and subfolders)
+Options -Indexes -ExecCGI
+SetHandler none
+SetHandler default-handler
+Options -ExecCGI
+RemoveType .php
+RemoveHandler .cgi .php .php3 .php4 .php5 .phtml .pl .py .pyc .pyo
+
+<IfModule mod_php5.c>
+        php_flag engine off
+</IfModule>
+<IfModule mod_php7.c>
+        php_flag engine off
+</IfModule>
+<IfModule mod_php8.c>
+        php_flag engine off
+</IfModule>
+
+
+<FilesMatch ".*\.(cgi|php4|php5|pl|py|pyc|pyo|php|php3|phtml)$">
+        SetHandler none
+        SetHandler default-handler
+
+        Options -ExecCGI
+        RemoveHandler .cgi .php .php3 .php4 .php5 .phtml .pl .py .pyc .pyo
+
+#       Need to be tested on 2.2
+#        <IfVersion < 2.4>
+#                Order allow,deny
+#                Deny from all
+#        </IfVersion>
+#        <IfVersion >= 2.4>
+#                Require all denied
+#        </IfVersion>
+</FilesMatch>

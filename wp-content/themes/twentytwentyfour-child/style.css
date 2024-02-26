@@ -1,0 +1,41 @@
+/*
+Theme Name: Twenty Twenty-Four Child
+Template: twentytwentyfour
+*/
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+body, *{font-family: 'Readex Pro', sans-serif !important;}
+h1,h2,h3,h4,h5,h6{margin-top:1rem; margin-bottom:1rem;font-weight:600;}
+h1{ font-size:1.375rem;}
+h2{ font-size:1.125rem;}
+.entry-content{background:#FEFAF1}
+.custom-header, .custom-footer{display:none;}
+.custom-post-list{ padding:15px;}
+.custom-post-list .post-item{padding: 1rem;  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.10);  margin-bottom: 2.5rem; background: #fff;max-width:600px}
+.custom-post-list .post-item h2{ display:none; margin-top:1rem; margin-bottom:1rem; font-size:1.375rem;font-weight:600;}
+.custom-post-list .post-item p{ font-size:1.125rem;font-weight:300;}
+.custom-post-list .post-item img{ width:100%; height:100%;vertical-align:top;}
+.custom-post-list .post-item .post-item-header{ display:flex; justify-content:space-between; margin-bottom:1rem;}
+.custom-post-list .post-item .post-item-header span{ display:block;}
+.custom-post-list .post-item .post-item-header span.name{ font-size:1.125rem; font-weight:600;}
+.custom-post-list .post-item .post-item-header span.caption{ font-size:1.125rem; font-weight:300;}
+.custom-post-list .post-item .post-item-header  .right_content{ text-align:right;}
+.custom-post-list .post-item .post-item-header  .left_content .img_block{ max-width:40px; margin-right: 15px; max-height:40px; border-radius:100%; overflow:hidden;}
+.custom-post-list .post-item .post-item-header  .left_content{ display:flex; align-items:center;}
+
+
+
+.single-post{background:#FEFAF1;}
+.single-post header.wp-block-template-part > .wp-block-group{ background:transparent !important;  }
+.single-post header.wp-block-template-part > .wp-block-group > .wp-block-group{max-width: 600px;}
+.single-post .entry-content{padding: 1rem;  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.10);  margin-bottom: 2.5rem; background: #fff;max-width:600px; margin-left: auto;
+    margin-right: auto;	}
+
+
+@media screen and (max-width:567px){
+	h1{ font-size:0.875rem;}
+	h2{ font-size:0.75rem;}
+	.custom-post-list .post-item .post-item-header span.name{ font-size:0.7rem; font-weight:600;}
+	.custom-post-list .post-item .post-item-header span.caption{ font-size:0.7rem; font-weight:600;}
+	.custom-post-list .post-item h2{ font-size:0.75rem;font-weight:600;}
+	.custom-post-list .post-item p{ font-size:0.7rem;font-weight:300;}
+}

@@ -1,0 +1,126 @@
+# Translation of Plugins - User Profile Picture - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - User Profile Picture - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-28 14:53:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.9\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - User Profile Picture - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "https://www.cozmoslabs.com"
+msgstr "https://www.cozmoslabs.com"
+
+#. Author of the plugin
+msgid "Cozmoslabs"
+msgstr "Cozmoslabs"
+
+#: metronet-profile-picture.php:1166
+msgid "You must have a role of editor or above to set a new profile image."
+msgstr "Du brauchst die Rolle eines Redakteurs oder höher, um ein neues Profilbild zu bestimmen."
+
+#: metronet-profile-picture.php:1478
+msgid "Author Information"
+msgstr "Informationen über den Autor"
+
+#: metronet-profile-picture.php:1476
+msgid "Author"
+msgstr "Autor"
+
+#: gutenberg/class-gutenberg.php:377 metronet-profile-picture.php:1544
+#: dist/blocks.build.js:2 dist/blocks.build.js:2786
+msgid "View all posts by"
+msgstr "Zeige alle Artikel von "
+
+#: gutenberg/class-gutenberg.php:226 metronet-profile-picture.php:1477
+msgid "Latest Posts"
+msgstr "Neue Beiträge"
+
+#: gutenberg/class-gutenberg.php:70 gutenberg/class-gutenberg.php:343
+#: gutenberg/class-gutenberg.php:409 metronet-profile-picture.php:1520
+#: metronet-profile-picture.php:1576 dist/blocks.build.js:2
+#: dist/blocks.build.js:2894
+msgid "View Website"
+msgstr "Website anzeigen"
+
+#: gutenberg/class-gutenberg.php:66 gutenberg/class-gutenberg.php:330
+#: gutenberg/class-gutenberg.php:404 metronet-profile-picture.php:1515
+#: metronet-profile-picture.php:1571 dist/blocks.build.js:2
+#: dist/blocks.build.js:2874 dist/blocks.build.js:3645
+#: dist/blocks.build.js:3879
+msgid "View Posts"
+msgstr "Beiträge ansehen"
+
+#: metronet-profile-picture.php:338 metronet-profile-picture.php:389
+#: metronet-profile-picture.php:406 metronet-profile-picture.php:441
+#: metronet-profile-picture.php:811 metronet-profile-picture.php:817
+msgid "Click to Edit"
+msgstr "Zum Bearbeiten klicken"
+
+#: metronet-profile-picture.php:1170
+msgid "User not owner."
+msgstr "Benutzer ist nicht Eigentümer."
+
+#: metronet-profile-picture.php:1123 metronet-profile-picture.php:1159
+msgid "You must be able to upload files."
+msgstr "Du musst die Berechtigung haben, Dateien hochzuladen."
+
+#: metronet-profile-picture.php:887
+msgid "Remove Profile Image"
+msgstr "Profilbild entfernen"
+
+#: metronet-profile-picture.php:1119 metronet-profile-picture.php:1163
+#: metronet-profile-picture.php:1202 metronet-profile-picture.php:1231
+#: metronet-profile-picture.php:1267
+msgid "User not found."
+msgstr "Benutzer nicht gefunden."
+
+#: metronet-profile-picture.php:1240 metronet-profile-picture.php:1274
+msgid "Profile picture not found."
+msgstr "Das Profilbild wurde nicht gefunden."
+
+#: metronet-profile-picture.php:886
+msgid "Set Profile Image"
+msgstr "Profilbild festlegen"
+
+#: metronet-profile-picture.php:850
+msgid "Override Avatar?"
+msgstr "Avatar überschreiben?"
+
+#: metronet-profile-picture.php:798
+msgid "Profile Image"
+msgstr "Profilbild"
+
+#: metronet-profile-picture.php:336 metronet-profile-picture.php:387
+#: metronet-profile-picture.php:405 metronet-profile-picture.php:440
+#: metronet-profile-picture.php:809 metronet-profile-picture.php:815
+msgid "Upload or Change Profile Picture"
+msgstr "Profild hochladen oder ändern"
+
+#: metronet-profile-picture.php:339 metronet-profile-picture.php:390
+#: metronet-profile-picture.php:825
+msgid "Remove profile image"
+msgstr "Profilbild entfernen"
+
+#. Plugin Name of the plugin
+#: metronet-profile-picture.php:142 metronet-profile-picture.php:157
+#: metronet-profile-picture.php:158 metronet-profile-picture.php:167
+#: metronet-profile-picture.php:168 metronet-profile-picture.php:194
+msgid "User Profile Picture"
+msgstr "User Profile Picture"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/metronet-profile-picture/"
+msgstr "https://de.wordpress.org/plugins/metronet-profile-picture/"
+
+#: metronet-profile-picture.php:680 metronet-profile-picture.php:888
+msgid "Crop Thumbnail"
+msgstr "Vorschaubild zuschneiden"
+
+#. Description of the plugin
+msgid "Use the native WP uploader on your user profile page."
+msgstr "Benutze den nativen WP-Uploader auf deiner Profilseite."
